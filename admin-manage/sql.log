@@ -1,0 +1,536 @@
+05/01/2017 19:53:46 DEBUG version_IS_UNDEFINED [localhost-startStop-1]o.s.j.c.JdbcTemplate - Executing SQL query [select * from role]
+05/01/2017 19:54:25 DEBUG version_IS_UNDEFINED [localhost-startStop-1]o.s.j.c.JdbcTemplate - Executing SQL query [select * from role]
+05/01/2017 19:54:32 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-2]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 19:54:51 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-5]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 19:55:11 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-10]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 19:55:31 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 19:55:51 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 19:56:01 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05/01/2017 19:56:01 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [select * from user where username=? ]
+05/01/2017 19:56:05 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-1]o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05/01/2017 19:56:05 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-1]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [select * from user where username=? ]
+05/01/2017 19:56:11 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 19:56:21 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-7]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 19:56:32 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-2]o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05/01/2017 19:56:32 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-2]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [select * from user where username=? ]
+05/01/2017 19:56:32 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-2]o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05/01/2017 19:56:32 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-2]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [select * from role r join user_role ur on r.id=ur.role_id where ur.uid=?]
+05/01/2017 19:56:32 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-2]o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05/01/2017 19:56:32 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-2]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [select * from user where username=? ]
+05/01/2017 19:56:32 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-2]o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05/01/2017 19:56:32 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-2]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [select * from role r join user_role ur on r.id=ur.role_id where ur.uid=?]
+05/01/2017 19:56:32 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-2]o.s.j.c.JdbcTemplate - Executing SQL query [select * from menu]
+05/01/2017 19:56:36 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-1]o.s.j.c.JdbcTemplate - Executing SQL query [select * from role]
+05/01/2017 19:56:37 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-4]o.s.j.c.JdbcTemplate - Executing SQL query [select * from user where username <> 'root']
+05/01/2017 19:56:40 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-6]o.s.j.c.JdbcTemplate - Executing SQL query [select * from menu]
+05/01/2017 19:56:41 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-7]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 19:56:46 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-7]o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05/01/2017 19:56:46 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-7]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [select * from user where username=? ]
+05/01/2017 19:56:46 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-7]o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05/01/2017 19:56:46 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-7]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [select * from role r join user_role ur on r.id=ur.role_id where ur.uid=?]
+05/01/2017 19:56:46 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-7]o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05/01/2017 19:56:46 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-7]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [select * from user where username=? ]
+05/01/2017 19:56:46 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-7]o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05/01/2017 19:56:46 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-7]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [select * from role r join user_role ur on r.id=ur.role_id where ur.uid=?]
+05/01/2017 19:57:01 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 19:57:08 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-1]o.s.j.c.JdbcTemplate - Executing prepared SQL update
+05/01/2017 19:57:08 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-1]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [INSERT menu (id,label,path,`level`,`order`,`url`,`type`,`style`,`disabled`) VALUES (?,?,?,?,?,?,?,?,?)]
+05/01/2017 19:57:08 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-1]o.s.j.c.JdbcTemplate - SQL update affected 1 rows
+05/01/2017 19:57:08 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-10]o.s.j.c.JdbcTemplate - Executing SQL query [select * from menu]
+05/01/2017 19:57:08 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-10]o.s.j.c.JdbcTemplate - Executing SQL query [select * from menu]
+05/01/2017 19:57:21 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-6]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 19:57:41 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 19:58:01 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-10]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 19:58:21 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 19:58:41 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-2]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 19:59:01 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-1]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 19:59:21 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-1]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 19:59:41 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-4]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:00:01 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:00:21 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-8]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:00:41 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:01:01 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-10]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:01:21 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-1]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:01:41 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-2]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:02:01 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-7]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:02:21 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-8]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:02:41 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:03:01 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-2]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:03:21 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-7]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:03:41 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-2]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:04:01 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-10]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:04:21 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-7]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:04:41 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-4]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:04:59 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-7]o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05/01/2017 20:04:59 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-7]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [select * from role where id=?]
+05/01/2017 20:05:01 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-10]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:05:11 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-1]o.s.j.c.JdbcTemplate - Executing SQL query [select * from resource]
+05/01/2017 20:05:21 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-7]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:05:41 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:06:01 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-7]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:06:21 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-1]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:06:41 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-10]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:07:01 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-5]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:07:21 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-10]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:07:41 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-5]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:08:01 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-10]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:08:21 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-1]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:08:41 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-2]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:09:01 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-7]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:09:21 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-1]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:09:41 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-10]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:09:51 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-5]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:10:11 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-5]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:10:31 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-10]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:10:51 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-7]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:11:11 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:11:31 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-7]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:11:51 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-2]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:12:11 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:12:31 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:12:51 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-7]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:13:07 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-2]o.s.j.c.JdbcTemplate - Executing prepared SQL update
+05/01/2017 20:13:07 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-2]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [update role SET disabled=? WHERE id=?]
+05/01/2017 20:13:07 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-2]o.s.j.c.JdbcTemplate - SQL update affected 1 rows
+05/01/2017 20:13:07 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing SQL query [select * from role]
+05/01/2017 20:13:08 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-4]o.s.j.c.JdbcTemplate - Executing prepared SQL update
+05/01/2017 20:13:08 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-4]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [update role SET disabled=? WHERE id=?]
+05/01/2017 20:13:08 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-4]o.s.j.c.JdbcTemplate - SQL update affected 1 rows
+05/01/2017 20:13:08 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-5]o.s.j.c.JdbcTemplate - Executing SQL query [select * from role]
+05/01/2017 20:13:09 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-10]o.s.j.c.JdbcTemplate - Executing prepared SQL update
+05/01/2017 20:13:09 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-10]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [update role SET disabled=? WHERE id=?]
+05/01/2017 20:13:09 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-10]o.s.j.c.JdbcTemplate - SQL update affected 1 rows
+05/01/2017 20:13:09 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-8]o.s.j.c.JdbcTemplate - Executing SQL query [select * from role]
+05/01/2017 20:13:10 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-1]o.s.j.c.JdbcTemplate - Executing prepared SQL update
+05/01/2017 20:13:10 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-1]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [update role SET disabled=? WHERE id=?]
+05/01/2017 20:13:10 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-1]o.s.j.c.JdbcTemplate - SQL update affected 1 rows
+05/01/2017 20:13:10 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-6]o.s.j.c.JdbcTemplate - Executing SQL query [select * from role]
+05/01/2017 20:13:11 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-5]o.s.j.c.JdbcTemplate - Executing SQL query [select * from menu]
+05/01/2017 20:13:11 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-5]o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05/01/2017 20:13:11 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-5]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [select m.* from menu m join role_menu rm on m.id=rm.menu_id where rm.role_id=?]
+05/01/2017 20:13:11 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-7]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:13:14 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-1]o.s.j.c.JdbcTemplate - Executing prepared SQL update
+05/01/2017 20:13:14 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-1]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [DELETE FROM role_menu WHERE role_id=?]
+05/01/2017 20:13:14 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-1]o.s.j.c.JdbcTemplate - SQL update affected 4 rows
+05/01/2017 20:13:14 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-1]o.s.j.c.JdbcTemplate - Executing SQL batch update [INSERT role_menu (role_id,menu_id) VALUES (?,?)]
+05/01/2017 20:13:14 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-1]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [INSERT role_menu (role_id,menu_id) VALUES (?,?)]
+05/01/2017 20:13:14 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-5]o.s.j.c.JdbcTemplate - Executing SQL query [select * from menu]
+05/01/2017 20:13:19 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-1]o.s.j.c.JdbcTemplate - Executing SQL query [select * from menu]
+05/01/2017 20:13:19 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-1]o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05/01/2017 20:13:19 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-1]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [select m.* from menu m join role_menu rm on m.id=rm.menu_id where rm.role_id=?]
+05/01/2017 20:13:27 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-6]o.s.j.c.JdbcTemplate - Executing prepared SQL update
+05/01/2017 20:13:27 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-6]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [DELETE FROM role_menu WHERE role_id=?]
+05/01/2017 20:13:27 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-6]o.s.j.c.JdbcTemplate - SQL update affected 5 rows
+05/01/2017 20:13:27 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-6]o.s.j.c.JdbcTemplate - Executing SQL batch update [INSERT role_menu (role_id,menu_id) VALUES (?,?)]
+05/01/2017 20:13:27 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-6]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [INSERT role_menu (role_id,menu_id) VALUES (?,?)]
+05/01/2017 20:13:27 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-1]o.s.j.c.JdbcTemplate - Executing SQL query [select * from menu]
+05/01/2017 20:13:30 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing SQL query [select * from menu]
+05/01/2017 20:13:30 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05/01/2017 20:13:30 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [select m.* from menu m join role_menu rm on m.id=rm.menu_id where rm.role_id=?]
+05/01/2017 20:13:31 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-1]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:13:35 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-6]o.s.j.c.JdbcTemplate - Executing prepared SQL update
+05/01/2017 20:13:35 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-6]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [DELETE FROM role_menu WHERE role_id=?]
+05/01/2017 20:13:35 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-6]o.s.j.c.JdbcTemplate - SQL update affected 1 rows
+05/01/2017 20:13:35 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-6]o.s.j.c.JdbcTemplate - Executing SQL batch update [INSERT role_menu (role_id,menu_id) VALUES (?,?)]
+05/01/2017 20:13:35 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-6]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [INSERT role_menu (role_id,menu_id) VALUES (?,?)]
+05/01/2017 20:13:35 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-5]o.s.j.c.JdbcTemplate - Executing SQL query [select * from menu]
+05/01/2017 20:13:39 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-8]o.s.j.c.JdbcTemplate - Executing SQL query [select * from menu]
+05/01/2017 20:13:39 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-8]o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05/01/2017 20:13:39 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-8]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [select m.* from menu m join role_menu rm on m.id=rm.menu_id where rm.role_id=?]
+05/01/2017 20:13:43 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing prepared SQL update
+05/01/2017 20:13:43 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [DELETE FROM role_menu WHERE role_id=?]
+05/01/2017 20:13:43 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - SQL update affected 5 rows
+05/01/2017 20:13:43 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing SQL batch update [INSERT role_menu (role_id,menu_id) VALUES (?,?)]
+05/01/2017 20:13:43 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [INSERT role_menu (role_id,menu_id) VALUES (?,?)]
+05/01/2017 20:13:43 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-5]o.s.j.c.JdbcTemplate - Executing SQL query [select * from menu]
+05/01/2017 20:13:46 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05/01/2017 20:13:46 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [select * from user where username=? ]
+05/01/2017 20:13:46 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05/01/2017 20:13:46 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [select * from role r join user_role ur on r.id=ur.role_id where ur.uid=?]
+05/01/2017 20:13:46 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05/01/2017 20:13:46 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [select * from user where username=? ]
+05/01/2017 20:13:46 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05/01/2017 20:13:46 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [select * from role r join user_role ur on r.id=ur.role_id where ur.uid=?]
+05/01/2017 20:13:51 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-10]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:14:11 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-8]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:14:28 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-1]o.s.j.c.JdbcTemplate - Executing prepared SQL update
+05/01/2017 20:14:28 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-1]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [INSERT user (id,username,password,email,disabled,createTime,salt) VALUES (?,?,?,?,?,?,?)]
+05/01/2017 20:14:28 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-1]o.s.j.c.JdbcTemplate - SQL update affected 1 rows
+05/01/2017 20:14:28 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-6]o.s.j.c.JdbcTemplate - Executing SQL query [select * from user where username <> 'root']
+05/01/2017 20:14:31 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-10]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:14:33 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing SQL query [select * from role]
+05/01/2017 20:14:33 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05/01/2017 20:14:33 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [select * from role r join user_role ur on r.id=ur.role_id where ur.uid=?]
+05/01/2017 20:14:36 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-1]o.s.j.c.JdbcTemplate - Executing prepared SQL update
+05/01/2017 20:14:36 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-1]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [DELETE FROM user_role WHERE uid=?]
+05/01/2017 20:14:36 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-1]o.s.j.c.JdbcTemplate - SQL update affected 0 rows
+05/01/2017 20:14:36 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-1]o.s.j.c.JdbcTemplate - Executing SQL batch update [INSERT user_role (uid,role_id) VALUES (?,?)]
+05/01/2017 20:14:36 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-1]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [INSERT user_role (uid,role_id) VALUES (?,?)]
+05/01/2017 20:14:40 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05/01/2017 20:14:40 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [select * from user where username=? ]
+05/01/2017 20:14:40 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05/01/2017 20:14:40 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [select * from role r join user_role ur on r.id=ur.role_id where ur.uid=?]
+05/01/2017 20:14:40 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05/01/2017 20:14:40 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [select * from user where username=? ]
+05/01/2017 20:14:40 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05/01/2017 20:14:40 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [select * from role r join user_role ur on r.id=ur.role_id where ur.uid=?]
+05/01/2017 20:14:40 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-1]o.s.j.c.JdbcTemplate - Executing SQL query [select * from role]
+05/01/2017 20:14:40 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-1]o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05/01/2017 20:14:40 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-1]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [select re.* from  role_resource rr  join resource re on re.id=rr.resource_id where rr.role_id=?]
+05/01/2017 20:14:51 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-5]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:15:11 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-7]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:15:20 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-1]o.s.j.c.JdbcTemplate - Executing SQL query [select * from role]
+05/01/2017 20:15:20 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-1]o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05/01/2017 20:15:20 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-1]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [select re.* from  role_resource rr  join resource re on re.id=rr.resource_id where rr.role_id=?]
+05/01/2017 20:15:25 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing SQL query [select * from role]
+05/01/2017 20:15:25 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05/01/2017 20:15:25 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [select re.* from  role_resource rr  join resource re on re.id=rr.resource_id where rr.role_id=?]
+05/01/2017 20:15:28 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing SQL query [select * from role]
+05/01/2017 20:15:28 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05/01/2017 20:15:28 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [select re.* from  role_resource rr  join resource re on re.id=rr.resource_id where rr.role_id=?]
+05/01/2017 20:15:29 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing SQL query [select * from role]
+05/01/2017 20:15:29 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05/01/2017 20:15:29 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [select re.* from  role_resource rr  join resource re on re.id=rr.resource_id where rr.role_id=?]
+05/01/2017 20:15:29 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-5]o.s.j.c.JdbcTemplate - Executing SQL query [select * from role]
+05/01/2017 20:15:29 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-5]o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05/01/2017 20:15:29 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-5]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [select re.* from  role_resource rr  join resource re on re.id=rr.resource_id where rr.role_id=?]
+05/01/2017 20:15:31 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-8]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:15:51 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:16:11 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-4]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:16:31 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-8]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:16:51 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-7]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:17:11 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-8]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:17:31 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:17:51 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-1]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:18:11 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-7]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:18:31 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-8]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:18:51 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:19:11 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-1]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:19:31 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-7]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:19:51 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-8]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:20:11 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:20:31 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-8]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:20:51 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-7]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:21:11 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-1]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:21:31 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:21:51 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-8]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:22:11 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:22:31 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-1]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:22:51 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:23:11 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-8]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:23:31 DEBUG version_IS_UNDEFINED [localhost-startStop-1]o.s.j.c.JdbcTemplate - Executing SQL query [select * from role]
+05/01/2017 20:23:36 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-2]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:23:56 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-6]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:24:16 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:24:18 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-2]o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05/01/2017 20:24:18 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-2]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [select * from user where username=? ]
+05/01/2017 20:24:18 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-2]o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05/01/2017 20:24:18 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-2]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [select * from role r join user_role ur on r.id=ur.role_id where ur.uid=?]
+05/01/2017 20:24:18 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-2]o.s.j.c.JdbcTemplate - Executing SQL query [select * from role]
+05/01/2017 20:24:18 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-2]o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05/01/2017 20:24:18 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-2]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [select re.* from  role_resource rr  join resource re on re.id=rr.resource_id where rr.role_id=?]
+05/01/2017 20:24:36 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-7]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:24:56 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-10]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:25:16 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-4]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:25:36 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-6]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:25:56 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-2]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:26:16 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-8]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:26:36 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:26:56 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-5]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:27:16 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-7]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:27:36 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-10]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:27:56 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-6]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:28:03 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing SQL query [select * from role]
+05/01/2017 20:28:03 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05/01/2017 20:28:03 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [select re.* from  role_resource rr  join resource re on re.id=rr.resource_id where rr.role_id=?]
+05/01/2017 20:28:03 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05/01/2017 20:28:03 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [select re.* from  role_resource rr  join resource re on re.id=rr.resource_id where rr.role_id=?]
+05/01/2017 20:28:03 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing SQL query [select * from resource WHERE disabled=0]
+05/01/2017 20:28:03 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05/01/2017 20:28:03 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [select m.* from menu m join role_menu rm on m.id=rm.menu_id join user_role ur on rm.role_id=ur.role_id where m.disabled=0 and ur.uid=?]
+05/01/2017 20:28:11 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing SQL query [select * from role]
+05/01/2017 20:28:11 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05/01/2017 20:28:11 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [select re.* from  role_resource rr  join resource re on re.id=rr.resource_id where rr.role_id=?]
+05/01/2017 20:28:11 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05/01/2017 20:28:11 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [select re.* from  role_resource rr  join resource re on re.id=rr.resource_id where rr.role_id=?]
+05/01/2017 20:28:11 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing SQL query [select * from resource WHERE disabled=0]
+05/01/2017 20:28:13 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing SQL query [select * from role]
+05/01/2017 20:28:13 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05/01/2017 20:28:13 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [select re.* from  role_resource rr  join resource re on re.id=rr.resource_id where rr.role_id=?]
+05/01/2017 20:28:13 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05/01/2017 20:28:13 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [select re.* from  role_resource rr  join resource re on re.id=rr.resource_id where rr.role_id=?]
+05/01/2017 20:28:13 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing SQL query [select * from resource WHERE disabled=0]
+05/01/2017 20:28:15 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-4]o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05/01/2017 20:28:15 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-4]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [select * from user where username=? ]
+05/01/2017 20:28:15 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-4]o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05/01/2017 20:28:15 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-4]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [select * from role r join user_role ur on r.id=ur.role_id where ur.uid=?]
+05/01/2017 20:28:15 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-4]o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05/01/2017 20:28:15 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-4]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [select * from user where username=? ]
+05/01/2017 20:28:15 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-4]o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05/01/2017 20:28:15 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-4]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [select * from role r join user_role ur on r.id=ur.role_id where ur.uid=?]
+05/01/2017 20:28:15 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-7]o.s.j.c.JdbcTemplate - Executing SQL query [select * from menu]
+05/01/2017 20:28:16 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-8]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:28:21 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-6]o.s.j.c.JdbcTemplate - Executing SQL query [select * from user where username <> 'root']
+05/01/2017 20:28:26 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing SQL query [select * from role]
+05/01/2017 20:28:26 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05/01/2017 20:28:26 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [select * from role r join user_role ur on r.id=ur.role_id where ur.uid=?]
+05/01/2017 20:28:29 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-2]o.s.j.c.JdbcTemplate - Executing SQL query [select * from role]
+05/01/2017 20:28:29 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-2]o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05/01/2017 20:28:29 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-2]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [select * from role r join user_role ur on r.id=ur.role_id where ur.uid=?]
+05/01/2017 20:28:34 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-2]o.s.j.c.JdbcTemplate - Executing prepared SQL update
+05/01/2017 20:28:34 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-2]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [DELETE FROM user_role WHERE uid=?]
+05/01/2017 20:28:34 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-2]o.s.j.c.JdbcTemplate - SQL update affected 1 rows
+05/01/2017 20:28:34 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-2]o.s.j.c.JdbcTemplate - Executing SQL batch update [INSERT user_role (uid,role_id) VALUES (?,?)]
+05/01/2017 20:28:34 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-2]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [INSERT user_role (uid,role_id) VALUES (?,?)]
+05/01/2017 20:28:36 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-4]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:28:39 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-6]o.s.j.c.JdbcTemplate - Executing SQL query [select * from role]
+05/01/2017 20:28:39 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-6]o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05/01/2017 20:28:39 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-6]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [select * from role r join user_role ur on r.id=ur.role_id where ur.uid=?]
+05/01/2017 20:28:42 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing prepared SQL update
+05/01/2017 20:28:42 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [DELETE FROM user_role WHERE uid=?]
+05/01/2017 20:28:42 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - SQL update affected 1 rows
+05/01/2017 20:28:42 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing SQL batch update [INSERT user_role (uid,role_id) VALUES (?,?)]
+05/01/2017 20:28:42 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [INSERT user_role (uid,role_id) VALUES (?,?)]
+05/01/2017 20:28:44 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-6]o.s.j.c.JdbcTemplate - Executing SQL query [select * from menu]
+05/01/2017 20:28:56 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-6]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:28:59 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-4]o.s.j.c.JdbcTemplate - Executing SQL query [select * from role]
+05/01/2017 20:29:16 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-7]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:29:35 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-10]o.s.j.c.JdbcTemplate - Executing prepared SQL update
+05/01/2017 20:29:35 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-10]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [INSERT menu (id,label,path,`level`,`order`,`url`,`type`,`style`,`disabled`) VALUES (?,?,?,?,?,?,?,?,?)]
+05/01/2017 20:29:35 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-10]o.s.j.c.JdbcTemplate - SQL update affected 1 rows
+05/01/2017 20:29:35 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-2]o.s.j.c.JdbcTemplate - Executing SQL query [select * from menu]
+05/01/2017 20:29:35 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-2]o.s.j.c.JdbcTemplate - Executing SQL query [select * from menu]
+05/01/2017 20:29:36 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-7]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:29:56 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:30:16 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-7]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:30:27 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-2]o.s.j.c.JdbcTemplate - Executing prepared SQL update
+05/01/2017 20:30:27 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-2]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [update menu SET label=?,`order`=?,url=?,disabled=?,`type`=?,`style`=? WHERE id=?]
+05/01/2017 20:30:27 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-2]o.s.j.c.JdbcTemplate - SQL update affected 1 rows
+05/01/2017 20:30:27 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-8]o.s.j.c.JdbcTemplate - Executing SQL query [select * from menu]
+05/01/2017 20:30:27 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-8]o.s.j.c.JdbcTemplate - Executing SQL query [select * from menu]
+05/01/2017 20:30:36 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-2]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:30:56 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:30:58 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-5]o.s.j.c.JdbcTemplate - Executing prepared SQL update
+05/01/2017 20:30:58 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-5]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [update menu SET label=?,`order`=?,url=?,disabled=?,`type`=?,`style`=? WHERE id=?]
+05/01/2017 20:30:58 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-5]o.s.j.c.JdbcTemplate - SQL update affected 1 rows
+05/01/2017 20:30:58 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-2]o.s.j.c.JdbcTemplate - Executing SQL query [select * from menu]
+05/01/2017 20:30:58 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-2]o.s.j.c.JdbcTemplate - Executing SQL query [select * from menu]
+05/01/2017 20:31:16 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:31:33 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-1]o.s.j.c.JdbcTemplate - Executing prepared SQL update
+05/01/2017 20:31:33 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-1]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [update menu SET label=?,`order`=?,url=?,disabled=?,`type`=?,`style`=? WHERE id=?]
+05/01/2017 20:31:33 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-1]o.s.j.c.JdbcTemplate - SQL update affected 1 rows
+05/01/2017 20:31:33 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-6]o.s.j.c.JdbcTemplate - Executing SQL query [select * from menu]
+05/01/2017 20:31:33 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-6]o.s.j.c.JdbcTemplate - Executing SQL query [select * from menu]
+05/01/2017 20:31:36 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:31:56 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-8]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:32:06 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-6]o.s.j.c.JdbcTemplate - Executing prepared SQL update
+05/01/2017 20:32:06 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-6]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [INSERT menu (id,label,path,`level`,`order`,`url`,`type`,`style`,`disabled`) VALUES (?,?,?,?,?,?,?,?,?)]
+05/01/2017 20:32:06 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-6]o.s.j.c.JdbcTemplate - SQL update affected 1 rows
+05/01/2017 20:32:06 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-5]o.s.j.c.JdbcTemplate - Executing SQL query [select * from menu]
+05/01/2017 20:32:06 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-5]o.s.j.c.JdbcTemplate - Executing SQL query [select * from menu]
+05/01/2017 20:32:16 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-10]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:32:25 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-5]o.s.j.c.JdbcTemplate - Executing prepared SQL update
+05/01/2017 20:32:25 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-5]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [update menu SET label=?,`order`=?,url=?,disabled=?,`type`=?,`style`=? WHERE id=?]
+05/01/2017 20:32:25 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-5]o.s.j.c.JdbcTemplate - SQL update affected 1 rows
+05/01/2017 20:32:25 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-2]o.s.j.c.JdbcTemplate - Executing SQL query [select * from menu]
+05/01/2017 20:32:25 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-2]o.s.j.c.JdbcTemplate - Executing SQL query [select * from menu]
+05/01/2017 20:32:36 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-10]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:32:49 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-4]o.s.j.c.JdbcTemplate - Executing prepared SQL update
+05/01/2017 20:32:49 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-4]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [update menu SET label=?,`order`=?,url=?,disabled=?,`type`=?,`style`=? WHERE id=?]
+05/01/2017 20:32:49 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-4]o.s.j.c.JdbcTemplate - SQL update affected 1 rows
+05/01/2017 20:32:49 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-5]o.s.j.c.JdbcTemplate - Executing SQL query [select * from menu]
+05/01/2017 20:32:49 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-5]o.s.j.c.JdbcTemplate - Executing SQL query [select * from menu]
+05/01/2017 20:32:56 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:33:16 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-4]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:33:19 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing prepared SQL update
+05/01/2017 20:33:19 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [update menu SET disabled=? WHERE id=?]
+05/01/2017 20:33:19 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - SQL update affected 1 rows
+05/01/2017 20:33:19 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-7]o.s.j.c.JdbcTemplate - Executing SQL query [select * from menu]
+05/01/2017 20:33:19 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-7]o.s.j.c.JdbcTemplate - Executing SQL query [select * from menu]
+05/01/2017 20:33:33 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing prepared SQL update
+05/01/2017 20:33:33 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [update menu SET disabled=? WHERE id=?]
+05/01/2017 20:33:33 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - SQL update affected 1 rows
+05/01/2017 20:33:33 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-10]o.s.j.c.JdbcTemplate - Executing SQL query [select * from menu]
+05/01/2017 20:33:33 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-10]o.s.j.c.JdbcTemplate - Executing SQL query [select * from menu]
+05/01/2017 20:33:34 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-2]o.s.j.c.JdbcTemplate - Executing prepared SQL update
+05/01/2017 20:33:34 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-2]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [update menu SET disabled=? WHERE id=?]
+05/01/2017 20:33:34 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-2]o.s.j.c.JdbcTemplate - SQL update affected 1 rows
+05/01/2017 20:33:34 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-5]o.s.j.c.JdbcTemplate - Executing SQL query [select * from menu]
+05/01/2017 20:33:34 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-5]o.s.j.c.JdbcTemplate - Executing SQL query [select * from menu]
+05/01/2017 20:33:36 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-4]o.s.j.c.JdbcTemplate - Executing prepared SQL update
+05/01/2017 20:33:36 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-4]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [update menu SET disabled=? WHERE id=?]
+05/01/2017 20:33:36 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-4]o.s.j.c.JdbcTemplate - SQL update affected 1 rows
+05/01/2017 20:33:36 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-10]o.s.j.c.JdbcTemplate - Executing SQL query [select * from menu]
+05/01/2017 20:33:36 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-10]o.s.j.c.JdbcTemplate - Executing SQL query [select * from menu]
+05/01/2017 20:33:36 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:33:37 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing prepared SQL update
+05/01/2017 20:33:37 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [update menu SET disabled=? WHERE id=?]
+05/01/2017 20:33:37 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - SQL update affected 1 rows
+05/01/2017 20:33:37 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-2]o.s.j.c.JdbcTemplate - Executing SQL query [select * from menu]
+05/01/2017 20:33:37 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-2]o.s.j.c.JdbcTemplate - Executing SQL query [select * from menu]
+05/01/2017 20:33:56 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-10]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:34:16 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:34:36 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-10]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:34:56 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-1]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:35:16 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-5]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:35:26 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:35:46 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-7]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:36:06 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:36:26 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-4]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:36:46 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-2]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:37:06 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:37:09 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-8]o.s.j.c.JdbcTemplate - Executing prepared SQL update
+05/01/2017 20:37:09 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-8]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [update menu SET label=?,`order`=?,url=?,disabled=?,`type`=?,`style`=? WHERE id=?]
+05/01/2017 20:37:09 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-8]o.s.j.c.JdbcTemplate - SQL update affected 1 rows
+05/01/2017 20:37:09 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing SQL query [select * from menu]
+05/01/2017 20:37:09 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing SQL query [select * from menu]
+05/01/2017 20:37:19 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-7]o.s.j.c.JdbcTemplate - Executing prepared SQL update
+05/01/2017 20:37:19 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-7]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [DELETE FROM role_menu WHERE menu_id=?]
+05/01/2017 20:37:19 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-7]o.s.j.c.JdbcTemplate - SQL update affected 0 rows
+05/01/2017 20:37:19 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-7]o.s.j.c.JdbcTemplate - Executing prepared SQL update
+05/01/2017 20:37:19 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-7]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [DELETE FROM menu WHERE id=?]
+05/01/2017 20:37:19 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-7]o.s.j.c.JdbcTemplate - SQL update affected 1 rows
+05/01/2017 20:37:19 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing SQL query [select * from menu]
+05/01/2017 20:37:19 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing SQL query [select * from menu]
+05/01/2017 20:37:26 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:37:46 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:38:06 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-1]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:38:12 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-4]o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05/01/2017 20:38:12 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-4]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [select * from menu where id=?]
+05/01/2017 20:38:26 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-1]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:38:46 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:39:06 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-8]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:39:14 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-6]o.s.j.c.JdbcTemplate - Executing prepared SQL update
+05/01/2017 20:39:14 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-6]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [INSERT menu (id,label,path,`level`,`order`,`url`,`type`,`style`,`disabled`) VALUES (?,?,?,?,?,?,?,?,?)]
+05/01/2017 20:39:14 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-6]o.s.j.c.JdbcTemplate - SQL update affected 1 rows
+05/01/2017 20:39:14 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-5]o.s.j.c.JdbcTemplate - Executing SQL query [select * from menu]
+05/01/2017 20:39:14 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-5]o.s.j.c.JdbcTemplate - Executing SQL query [select * from menu]
+05/01/2017 20:39:26 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-8]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:39:46 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-4]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:39:57 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-6]o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05/01/2017 20:39:57 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-6]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [select * from user where id=?]
+05/01/2017 20:40:01 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing SQL query [select * from role]
+05/01/2017 20:40:01 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05/01/2017 20:40:01 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [select * from role r join user_role ur on r.id=ur.role_id where ur.uid=?]
+05/01/2017 20:40:02 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing prepared SQL update
+05/01/2017 20:40:02 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [DELETE FROM user_role WHERE uid=?]
+05/01/2017 20:40:02 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - SQL update affected 1 rows
+05/01/2017 20:40:02 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing SQL batch update [INSERT user_role (uid,role_id) VALUES (?,?)]
+05/01/2017 20:40:02 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [INSERT user_role (uid,role_id) VALUES (?,?)]
+05/01/2017 20:40:06 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-6]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:40:23 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing SQL query [select * from role]
+05/01/2017 20:40:23 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05/01/2017 20:40:23 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [select * from role r join user_role ur on r.id=ur.role_id where ur.uid=?]
+05/01/2017 20:40:26 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-7]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:40:30 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing prepared SQL update
+05/01/2017 20:40:30 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [update user SET disabled=? WHERE id=?]
+05/01/2017 20:40:30 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - SQL update affected 1 rows
+05/01/2017 20:40:30 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-7]o.s.j.c.JdbcTemplate - Executing SQL query [select * from user where username <> 'root']
+05/01/2017 20:40:31 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-1]o.s.j.c.JdbcTemplate - Executing prepared SQL update
+05/01/2017 20:40:31 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-1]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [update user SET disabled=? WHERE id=?]
+05/01/2017 20:40:31 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-1]o.s.j.c.JdbcTemplate - SQL update affected 1 rows
+05/01/2017 20:40:31 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-2]o.s.j.c.JdbcTemplate - Executing SQL query [select * from user where username <> 'root']
+05/01/2017 20:40:32 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-2]o.s.j.c.JdbcTemplate - Executing prepared SQL update
+05/01/2017 20:40:32 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-2]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [update user SET disabled=? WHERE id=?]
+05/01/2017 20:40:32 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-2]o.s.j.c.JdbcTemplate - SQL update affected 1 rows
+05/01/2017 20:40:32 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-7]o.s.j.c.JdbcTemplate - Executing SQL query [select * from user where username <> 'root']
+05/01/2017 20:40:33 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05/01/2017 20:40:33 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [select * from user where id=?]
+05/01/2017 20:40:36 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-5]o.s.j.c.JdbcTemplate - Executing SQL query [select * from role]
+05/01/2017 20:40:36 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-5]o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05/01/2017 20:40:36 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-5]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [select * from role r join user_role ur on r.id=ur.role_id where ur.uid=?]
+05/01/2017 20:40:40 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-1]o.s.j.c.JdbcTemplate - Executing prepared SQL update
+05/01/2017 20:40:40 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-1]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [update user SET disabled=? WHERE id=?]
+05/01/2017 20:40:40 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-1]o.s.j.c.JdbcTemplate - SQL update affected 1 rows
+05/01/2017 20:40:40 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-8]o.s.j.c.JdbcTemplate - Executing SQL query [select * from user where username <> 'root']
+05/01/2017 20:40:44 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-8]o.s.j.c.JdbcTemplate - Executing SQL query [select * from role]
+05/01/2017 20:40:44 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-8]o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05/01/2017 20:40:44 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-8]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [select * from role r join user_role ur on r.id=ur.role_id where ur.uid=?]
+05/01/2017 20:40:46 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-1]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:40:53 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-5]o.s.j.c.JdbcTemplate - Executing SQL query [select * from resource]
+05/01/2017 20:40:53 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-5]o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05/01/2017 20:40:53 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-5]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [select re.* from  role_resource rr  join resource re on re.id=rr.resource_id where rr.role_id=?]
+05/01/2017 20:41:02 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05/01/2017 20:41:02 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [select * from role where id=?]
+05/01/2017 20:41:06 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-6]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:41:06 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-8]o.s.j.c.JdbcTemplate - Executing SQL query [select * from menu]
+05/01/2017 20:41:06 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-8]o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05/01/2017 20:41:06 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-8]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [select m.* from menu m join role_menu rm on m.id=rm.menu_id where rm.role_id=?]
+05/01/2017 20:41:11 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-7]o.s.j.c.JdbcTemplate - Executing prepared SQL update
+05/01/2017 20:41:11 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-7]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [DELETE FROM role_menu WHERE role_id=?]
+05/01/2017 20:41:11 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-7]o.s.j.c.JdbcTemplate - SQL update affected 1 rows
+05/01/2017 20:41:11 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-7]o.s.j.c.JdbcTemplate - Executing SQL batch update [INSERT role_menu (role_id,menu_id) VALUES (?,?)]
+05/01/2017 20:41:11 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-7]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [INSERT role_menu (role_id,menu_id) VALUES (?,?)]
+05/01/2017 20:41:11 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-1]o.s.j.c.JdbcTemplate - Executing SQL query [select * from menu]
+05/01/2017 20:41:19 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-2]o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05/01/2017 20:41:19 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-2]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [select * from user where username=? ]
+05/01/2017 20:41:19 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-2]o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05/01/2017 20:41:19 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-2]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [select * from role r join user_role ur on r.id=ur.role_id where ur.uid=?]
+05/01/2017 20:41:19 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-2]o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05/01/2017 20:41:19 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-2]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [select * from user where username=? ]
+05/01/2017 20:41:19 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-2]o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05/01/2017 20:41:19 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-2]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [select * from role r join user_role ur on r.id=ur.role_id where ur.uid=?]
+05/01/2017 20:41:19 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing SQL query [select * from role]
+05/01/2017 20:41:19 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05/01/2017 20:41:19 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [select re.* from  role_resource rr  join resource re on re.id=rr.resource_id where rr.role_id=?]
+05/01/2017 20:41:19 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05/01/2017 20:41:19 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [select re.* from  role_resource rr  join resource re on re.id=rr.resource_id where rr.role_id=?]
+05/01/2017 20:41:19 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing SQL query [select * from resource WHERE disabled=0]
+05/01/2017 20:41:19 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05/01/2017 20:41:19 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [select m.* from menu m join role_menu rm on m.id=rm.menu_id join user_role ur on rm.role_id=ur.role_id where m.disabled=0 and ur.uid=?]
+05/01/2017 20:41:26 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:41:46 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-10]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:42:06 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:42:26 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-1]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:42:46 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-5]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:43:06 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-1]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:43:26 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-5]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:43:46 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:44:06 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-5]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:44:26 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-1]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:44:46 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-5]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:45:06 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:45:26 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-7]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:45:46 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-1]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:46:06 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-7]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:46:26 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-1]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:46:46 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-5]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:47:06 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:47:16 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-2]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:47:36 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:47:56 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-6]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:48:16 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-10]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:48:36 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-6]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:48:56 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:49:16 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-2]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:49:36 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-10]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:49:56 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-6]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:50:16 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-10]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:50:36 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-2]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:50:56 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-10]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:51:16 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-6]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:51:36 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-4]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:51:46 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing SQL query [select * from role]
+05/01/2017 20:51:46 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05/01/2017 20:51:46 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [select re.* from  role_resource rr  join resource re on re.id=rr.resource_id where rr.role_id=?]
+05/01/2017 20:51:46 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05/01/2017 20:51:46 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [select re.* from  role_resource rr  join resource re on re.id=rr.resource_id where rr.role_id=?]
+05/01/2017 20:51:46 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing SQL query [select * from resource WHERE disabled=0]
+05/01/2017 20:51:47 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing SQL query [select * from role]
+05/01/2017 20:51:47 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05/01/2017 20:51:47 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [select re.* from  role_resource rr  join resource re on re.id=rr.resource_id where rr.role_id=?]
+05/01/2017 20:51:47 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05/01/2017 20:51:47 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [select re.* from  role_resource rr  join resource re on re.id=rr.resource_id where rr.role_id=?]
+05/01/2017 20:51:47 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing SQL query [select * from resource WHERE disabled=0]
+05/01/2017 20:51:48 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing SQL query [select * from role]
+05/01/2017 20:51:48 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05/01/2017 20:51:48 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [select re.* from  role_resource rr  join resource re on re.id=rr.resource_id where rr.role_id=?]
+05/01/2017 20:51:48 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05/01/2017 20:51:48 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing prepared SQL statement [select re.* from  role_resource rr  join resource re on re.id=rr.resource_id where rr.role_id=?]
+05/01/2017 20:51:48 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing SQL query [select * from resource WHERE disabled=0]
+05/01/2017 20:51:56 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-9]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:52:16 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-7]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:52:36 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:52:56 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:53:16 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-2]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
+05/01/2017 20:53:36 DEBUG version_IS_UNDEFINED [http-nio-8080-exec-3]o.s.j.c.JdbcTemplate - Executing SQL query [SELECT 1]
